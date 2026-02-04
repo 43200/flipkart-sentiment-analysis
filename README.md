@@ -103,3 +103,15 @@ The application was deployed using **Streamlit Community Cloud**, providing a pu
 
 ## 📁 Project Structure
 
+flipkart-sentiment-analysis/
+│
+├── app.py
+├── sentiment_model.pkl
+├── tfidf_vectorizer.pkl
+├── requirements.txt
+└── README.md
+
+## ▶️ How to Run Locally
+```bash
+pip install -r requirements.txt
+streamlit run app.py
